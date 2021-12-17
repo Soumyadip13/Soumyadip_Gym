@@ -1,0 +1,149 @@
+   body {
+     font-family: 'Baloo Bhai', cursive;
+     color: white;
+     margin: 5px;
+     padding: 0px;
+     background-image: url('gym background.jpg');
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+   }
+
+   .left {
+     display: inline-block;
+     /*border: 2px solid red; */
+     position: absolute;
+     left: 10px;
+     top: 15px;
+   }
+
+   .left img {
+     width: 136px;
+     
+   }
+
+   .left div {
+     color: orange;
+     font-size: 20px;
+     margin: -55px;
+     text-align: center;
+   }
+   .left div span{
+     color: white;
+   }
+
+   .mid {
+     display: block;
+     width: 65%;
+     margin: -10px auto;
+     /*border: 2px solid green;*/
+   }
+
+   .right {
+     position: absolute;
+     right: 3px;
+     top: 10px;
+     display: inline-block;
+     /*border: 2px solid yellow;*/
+   }
+
+   .navbar {
+     display: inline-block;
+   }
+
+   .navbar li {
+     display: inline-block;
+     font-size: 20px;
+     margin: 5px 0px 5px 30px;
+   }
+
+   .navbar li a {
+     color: white;
+     text-decoration: none;
+     padding: 5px 5px;
+
+   }
+
+   .navbar li a:hover,
+   .navbar li a.active {
+     text-decoration: underline;
+     color: #DCB07B
+
+   }
+
+   .btn {
+     font-family: 'Baloo Bhai', cursive;
+     margin: 0px 10px;
+     background-color: black;
+     color: white;
+     padding: 7px 7px;
+     border: 2px solid grey;
+     border-radius: 10px;
+     font-size: 20px;
+     cursor: pointer;
+   }
+
+   .btn:hover {
+     background-color: rgb(31, 30, 30);
+   }
+
+   .box {
+    /*border: 2px solid red;*/
+     margin: 40px 80px 306px 80px;
+     padding: 75px;
+     width: 33%;
+     height: 63%;
+     border-radius: 28px;
+   }
+
+   .box p {
+     margin: 30px 0px;
+   }
+
+   .box h1 {
+     text-align: left;
+     font-size: 40px;
+     margin: -30px auto;
+   }
+
+   .box h1 span {
+     color: orange;
+   }
+   
+   .box a{
+     color: white;
+     background-color: orange;
+     text-decoration: none;
+     border: 3px solid darkorange;
+     border-radius: 3px;
+     float: left;
+     padding: 3px 100px;
+     margin: 40px 0px 0px 0px;
+   }
+   .iconbox{
+    /*border: 1px solid green;*/
+    display: inline-block;
+    margin: 0px 0px 0px 400px
+  }
+  .iconbox p{
+    text-align: center;
+   /* border: 1px solid red;*/
+    margin: 0px 0px -5px 0px;
+    
+  }
+    .icon {
+      width: 40px;
+      height: 40px;
+      /*border: 1px solid red;*/
+      margin: 0px 0px 10px 0px;
+      display: inline-block;
+      text-align: center;
+    }
+    .fa-twitter{
+      color: #0097e6
+    }
+    .fa-instagram{
+      color: #e84393
+    }
+    .fa-youtube-play{
+      color: red
+    }

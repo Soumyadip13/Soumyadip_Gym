@@ -1,0 +1,65 @@
+body {
+  background-image: url('pexels-photo-416809.jpeg');
+  background-repeat: no-repeat;
+  background-size: 110%;
+  color: white
+}
+
+.container {
+  font-family: 'Baloo Bhai', cursive;
+  /*border: 2px solid orange;*/
+  margin: 106px 80px;
+  padding: 75px;
+  width: 33%;
+  border-radius: 28px;
+}
+
+.form-group input{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  display: block;
+  width: 200px;
+  padding: 1px;
+  border: 1px solid white;
+  margin: 11px auto;
+  font-size: 15px;
+  border-radius: 8px;
+  background: transparent;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container button {
+  display: block;
+  width: 74%;
+  margin: 60px auto 2px auto;
+  padding: 5px auto;
+  color: #FFFBFB;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: orange;
+  border: 2px solid darkorange;
+  border-radius: 5px
+  
+}
+
+.container h1 {
+  color: lightgoldenrodyellow;
+}
+
+.container h1 span {
+  color: gold;
+}
+
+input {
+  color: #E8CB9C;
+  font-family: 'Lobster', cursive;
+}
+
+::placeholder {
+  color: lightgray;
+  font-family: 'Baloo Bhai', cursive;
+  
+}
