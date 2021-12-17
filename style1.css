@@ -138,6 +138,9 @@
       display: inline-block;
       text-align: center;
     }
+    .fa-facebook{
+      color: darkblue
+    }
     .fa-twitter{
       color: #0097e6
     }
