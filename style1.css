@@ -18,7 +18,7 @@
 
    .left img {
      width: 136px;
-     
+
    }
 
    .left div {
@@ -27,7 +27,8 @@
      margin: -55px;
      text-align: center;
    }
-   .left div span{
+
+   .left div span {
      color: white;
    }
 
@@ -67,7 +68,6 @@
    .navbar li a.active {
      text-decoration: underline;
      color: #DCB07B
-
    }
 
    .btn {
@@ -87,7 +87,7 @@
    }
 
    .box {
-    /*border: 2px solid red;*/
+     /*border: 2px solid red;*/
      margin: 40px 80px 306px 80px;
      padding: 75px;
      width: 33%;
@@ -108,8 +108,8 @@
    .box h1 span {
      color: orange;
    }
-   
-   .box a{
+
+   .box a {
      color: white;
      background-color: orange;
      text-decoration: none;
@@ -119,34 +119,45 @@
      padding: 3px 100px;
      margin: 40px 0px 0px 0px;
    }
-   .iconbox{
-    /*border: 1px solid green;*/
-    display: inline-block;
-    margin: 0px 0px 0px 400px
-  }
-  .iconbox p{
-    text-align: center;
-   /* border: 1px solid red;*/
-    margin: 0px 0px -5px 0px;
-    
-  }
-    .icon {
-      width: 40px;
-      height: 40px;
-      /*border: 1px solid red;*/
-      margin: 0px 0px 10px 0px;
-      display: inline-block;
-      text-align: center;
-    }
-    .fa-facebook{
-      color: darkblue
-    }
-    .fa-twitter{
-      color: #0097e6
-    }
-    .fa-instagram{
-      color: #e84393
-    }
-    .fa-youtube-play{
-      color: red
-    }
+
+   hr {
+     width: 50%;
+   }
+
+   .iconbox {
+     /*border: 1px solid green;*/
+     display: inline-block;
+     margin: 0px 0px 0px 400px
+   }
+
+   .iconbox p {
+     text-align: center;
+     /* border: 1px solid red;*/
+     margin: 0px 0px -5px 0px;
+
+   }
+
+   .icon {
+     width: 40px;
+     height: 40px;
+     /*border: 1px solid red;*/
+     margin: 0px 0px 10px 0px;
+     display: inline-block;
+     text-align: center;
+   }
+
+   .fa-facebook {
+     color: darkblue
+   }
+
+   .fa-twitter {
+     color: #0097e6
+   }
+
+   .fa-instagram {
+     color: #e84393
+   }
+
+   .fa-youtube-play {
+     color: red
+   }
